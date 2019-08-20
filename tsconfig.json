@@ -3,11 +3,11 @@
       "target": "es5",
       "module": "commonjs",
       "declaration": true,
-      "outDir": "./",
+      "outDir": "./build",
       "strict": true,
       "jsx": "react"
     },
     "include": [
-      "lib/**/*"
+      "lib/index.tsx"
     ]
   }
