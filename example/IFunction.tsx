@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import { useGlobalState } from '../lib/index'
+import { useGlobalState } from '../index'
 import listState from './globalState/listState';
 import { add, del } from './justFunction'
 
