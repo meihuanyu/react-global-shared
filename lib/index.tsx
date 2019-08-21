@@ -6,15 +6,19 @@ const ExComs: any = {}
 let hookSets: any = {}
 
 const comRender = function(className: any){
-    for(let i = 0; i < ExComs[className].length; i++){
-        const Ex = ExComs[className]
-        Ex.setState({})
+    if(ExComs[className]){
+        for(let i = 0; i < ExComs[className].length; i++){
+            const Ex = ExComs[className][i]
+            Ex.setState({})
+        }
     }
 }
 const setHooks = function(className: any, value: any){
-    for(let i = 0; i < hookSets[className].length; i++){
-        const fn = hookSets[className]
-        fn(value)
+    if(hookSets[className]){
+        for(let i = 0; i < hookSets[className].length; i++){
+            const fn = hookSets[className][i]
+            fn(value)
+        }
     }
 }
 const defineClass = (ClassEx: any) => {
