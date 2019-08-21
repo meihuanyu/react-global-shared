@@ -1,6 +1,10 @@
-# react-global-shared
+
+## react-global-shared
 
 react全局状态管理,更自由,更简单.
+
+[![MIT](https://img.shields.io/dub/l/vibe-d.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+![Travis (.org)](https://travis-ci.org/meihuanyu/react-global-shared.svg?branch=master)
 
 ## ✨ Features
 
