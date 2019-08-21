@@ -1,0 +1,10 @@
+
+/node_modules
+/build
+/.idea
+/example
+/webpack.config.js
+/tsconfig.json
+/.babelrc
+/.gitignore
+yarn.lock
