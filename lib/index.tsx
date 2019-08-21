@@ -55,7 +55,7 @@ export const useGlobalState = (StateEx: any) => {
 }
 export const connect = (Compoent: any , ...States:any[]) => {
     const currentStateKeys:any  = []
-
+    States = States || []
     for(let i=0;i<States.length;i++){
         const ClassEx = States[i]
         const name = defineClass(ClassEx)
