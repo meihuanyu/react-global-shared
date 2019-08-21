@@ -1,10 +1,12 @@
 
-/node_modules
-/build
-/.idea
 /example
-/webpack.config.js
-/tsconfig.json
+/node_modules
+/lib
+/public
+/test
+/.idea
 /.babelrc
 /.gitignore
+/tsconfig.json
+/webpack.config.js
 yarn.lock
