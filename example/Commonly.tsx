@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-global-shared'
+import { connect } from '../lib/index'
 import listState from './globalState/listState';
 class Commonly extends React.Component<any> {
     state = {
